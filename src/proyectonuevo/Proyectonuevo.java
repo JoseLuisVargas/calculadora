@@ -34,7 +34,7 @@ public class Proyectonuevo {
     
     return a/b;
      }
-     float potencia(double a, double b){
+    double potencia(double a, double b){
      return Math.pow(a, b);
      }
 }
