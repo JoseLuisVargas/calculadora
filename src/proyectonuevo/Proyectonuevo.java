@@ -29,12 +29,17 @@ public class Proyectonuevo {
     
     return a*b;
     
-       }
-     float division(float a, float b){
-    
-    return a/b;
      }
     double potencia(double a, double b){
      return Math.pow(a, b);
      }
+
+    float division(float a, float b){
+      if (b==0){
+         System.out.print("no se puede dividir");
+         return -1;
+      }
+       return a / b;
+      }
+    
 }
