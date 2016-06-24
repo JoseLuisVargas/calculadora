@@ -41,5 +41,9 @@ public class Proyectonuevo {
       }
        return a / b;
       }
+    float multiplicacion1(float a, float b, float c){
     
+    return a*b+c;
+    
+    }
 }
